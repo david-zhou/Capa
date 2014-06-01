@@ -49,34 +49,35 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Default.aspx" />
+    <Content Include="capturaCAR.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
-    <Content Include="Static\js\bootstrap.js" />
-    <Content Include="Static\js\bootstrap.min.js" />
-    <Content Include="Static\css\bootstrap-theme.css" />
-    <Content Include="Static\css\bootstrap-theme.min.css" />
-    <Content Include="Static\css\bootstrap.css" />
-    <Content Include="Static\css\bootstrap.min.css" />
-    <Content Include="Static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Static\img\logo.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Base.Master.cs">
-      <DependentUpon>Base.Master</DependentUpon>
+    <Compile Include="BaseLogin.Master.cs">
+      <DependentUpon>BaseLogin.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Base.Master.designer.cs">
-      <DependentUpon>Base.Master</DependentUpon>
+    <Compile Include="BaseLogin.Master.designer.cs">
+      <DependentUpon>BaseLogin.Master</DependentUpon>
     </Compile>
-    <Compile Include="Default.aspx.cs">
+    <Compile Include="BaseSystem.Master.cs">
+      <DependentUpon>BaseSystem.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
-      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="BaseSystem.Master.designer.cs">
+      <DependentUpon>BaseSystem.Master</DependentUpon>
+    </Compile>
+    <Compile Include="capturaCAR.aspx.cs">
+      <DependentUpon>capturaCAR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="capturaCAR.aspx.designer.cs">
+      <DependentUpon>capturaCAR.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -91,12 +92,8 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Base.Master" />
-    <Content Include="Static\css\bootstrap-theme.css.map" />
-    <Content Include="Static\css\bootstrap.css.map" />
-    <Content Include="Static\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Static\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="Static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="BaseLogin.Master" />
+    <Content Include="BaseSystem.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
