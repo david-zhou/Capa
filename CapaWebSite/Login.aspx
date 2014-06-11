@@ -27,8 +27,7 @@
         <input type="password" class="form-control" id="inputPassword" placeholder="Password"/>
     </div>
   </div>
-    <a class="btn btn-primary" href="capturaCAR.aspx">Submit </a>
-    <!--<button type="submit" class="btn btn-primary">Submit</button>!-->
+        <a class="btn btn-primary" href="capturaCAR.aspx" style="float:right">Submit </a>
 </form>    
 </div>
 </div>

@@ -22,7 +22,8 @@
           CAR <span class="caret"></span>
         </a>
         <ul class="dropdown-menu">
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">algo</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="capturaCAR.aspx">Agregar CAR</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="autorizarCAR.aspx">Autorizar CAR</a></li>
         </ul>
       </li>
 

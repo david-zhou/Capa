@@ -49,6 +49,7 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="autorizarCAR.aspx" />
     <Content Include="capturaCAR.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
@@ -58,6 +59,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="autorizarCAR.aspx.cs">
+      <DependentUpon>autorizarCAR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="autorizarCAR.aspx.designer.cs">
+      <DependentUpon>autorizarCAR.aspx</DependentUpon>
+    </Compile>
     <Compile Include="BaseLogin.Master.cs">
       <DependentUpon>BaseLogin.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
