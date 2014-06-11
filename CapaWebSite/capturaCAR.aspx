@@ -3,7 +3,6 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
-<<<<<<< HEAD
 <form class="form-horizontal" role="form">
 
   <div class="form-group">
@@ -92,7 +91,4 @@
 
 
 </form>
-=======
-<a href=" fadfa">asdfaf</a>
->>>>>>> origin/master
 </asp:Content>
